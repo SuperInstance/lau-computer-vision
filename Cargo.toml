@@ -1,0 +1,13 @@
+[package]
+name = "lau-computer-vision"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-computer-vision"
+description = "Computer vision fundamentals — image processing, feature detection, and geometric vision for agent visual perception"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
